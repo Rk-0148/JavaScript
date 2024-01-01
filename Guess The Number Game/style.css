@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+#game-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease; /* Smooth transition for width changes */
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#previous-guesses {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Display items horizontally */
+  flex-wrap: wrap; /* Wrap to the next line if necessary */
+  justify-content: center; /* Center items horizontally */
+}
+
+#previous-guesses li {
+  margin: 0 5px; /* Add spacing between previous guesses */
+}
