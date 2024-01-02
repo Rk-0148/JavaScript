@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 60px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#result-message {
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+#previous-guesses {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+#previous-guesses li {
+  margin: 5px 0;
+}
