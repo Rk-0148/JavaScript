@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require("prompt-sync")();
 
 // // Problem 1 create the array of numbers and take user input to add array input in the array and
 // let arr = [1,2,3,45];
@@ -26,15 +26,15 @@ const prompt = require('prompt-sync')();
 // console.log(new_arr);
 
 // Problem 4 : create a array of Squares of given numbers
-let arr = [1,2,3,4,5];
-let new_arr = arr.map((x) =>{
-    return x*x;
-})
+let arr = [1, 2, 3, 4, 5];
+let new_arr = arr.map((x) => {
+  return x * x;
+});
 console.log(new_arr);
 
 // problem 5 : use reduce method to calculate factorial of first n natural numbers
-let arr1 = [1,2,3,4,5,6];
-let fact = arr.reduce((x1,x2) =>{
-    return x1*x2;
-})
+let arr1 = [1, 2, 3, 4, 5, 6];
+let fact = arr.reduce((x1, x2) => {
+  return x1 * x2;
+});
 console.log(fact);
